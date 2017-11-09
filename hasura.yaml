@@ -1,4 +1,4 @@
-description: A basic hasura project serving static files 
-keywords: getting-started, nginx, static-files 
-name: hello-nginx 
+description: A basic hasura project serving static files
+keywords: getting-started, nginx, static-files
+name: hello-nginx
 platformVersion: v0.15.3
