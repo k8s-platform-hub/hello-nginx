@@ -1,4 +1,4 @@
 description: Blank template for a Hasura project
-keywords: base, getting-started
+keywords: getting-started, nginx, static-app
 name: base
 platformVersion: v0.15.3
