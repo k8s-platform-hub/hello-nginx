@@ -3,5 +3,5 @@
     configmap: controller-conf
     namespace: hasura
   data: null
-  kubeContext: h34-decode27-stg
-  name: h34-decode27-stg
+  kubeContext: asexuality44
+  name: asexuality44
