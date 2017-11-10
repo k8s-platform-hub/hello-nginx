@@ -61,6 +61,11 @@ Keep a note of your cluster name. Alternatively, you can also go to your [hasura
 
 ### Step 3: Deploying on a hasura cluster
 
+Before you deploy the project,
+open `microservices/www/app/src/static/hasura-example.js`
+replace `cluster-name` with the name of your cluster in the specified url for the variable `dataUrl`.
+In this case, it would be `let dataUrl = "https://data.h34-excise98-stg.hasura-app.io/v1/query"`
+
 ```sh
 $ git add .
 $ git commit -m "Initial Commit"
