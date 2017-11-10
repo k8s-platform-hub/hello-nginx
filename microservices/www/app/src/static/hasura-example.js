@@ -10,10 +10,6 @@ function fetchArticles() {
   $.ajax({
   	url: dataUrl,
   	contentType: "application/json",
-  	headers: {
-        "X-Hasura-Role": "anonymous",
-        "X-Hasura-User-Id": "0"
-  	},
   	data: JSON.stringify({
         "type": "select",
         "args": {
