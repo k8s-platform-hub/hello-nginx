@@ -111,7 +111,7 @@ Alternatively, you can also view the schema for these tables on the api console 
 
 ![Data schema 1](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-1.png "Data schema 1")
 --------------------------------------------------------------------------------------------------------------------------------
-![Data schema 2](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-2.jpg "Data schema 2")
+![Data schema 2](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-2.png "Data schema 2")
 
 This means that you can now leverage the hasura data queries to perform CRUD operations on these tables.
 
