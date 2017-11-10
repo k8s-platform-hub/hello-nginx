@@ -4,10 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hasura Nginx Git Push Template</title>
-    <script src="/static/hello.js"></script>
+    <title>Nginx Starter Project</title>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   </head>
   <body>
-    Hello World!
+    <h2>This is a static html page served using nginx on Hasura.</h2>
+    <h3 style="color:#d5d5d5;">
+      <em>
+        The following is a list of articles fetched from the 'articles' table. To see how the api request is made, check out `hasura-example.js` at `microservices/app/src/static/`
+      </em>
+    </h3>
+    <hr>
+    <div id="outputContainer"></div>
+    <div id="articleListContainer" style="width: 80%; margin: 0 auto"></div>
+    <script src="/static/hasura-example.js"></script>
   </body>
 </html>
