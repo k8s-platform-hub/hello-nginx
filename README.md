@@ -109,7 +109,7 @@ author_id | integer NOT NULL
 
 Alternatively, you can also view the schema for these tables on the api console by heading over to the tab named `data` as shown in the screenshots below.
 
-![Data schema 1](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-1.jpg "Data schema 1")
+![Data schema 1](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-1.png"Data schema 1")
 --------------------------------------------------------------------------------------------------------------------------------
 ![Data schema 2](https://raw.githubusercontent.com/hasura/hello-nginx/master/assets/data-2.jpg "Data schema 2")
 
