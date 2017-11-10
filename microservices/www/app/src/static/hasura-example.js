@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 //replace cluster-name with the name of your cluster
-let dataUrl = "https://data.cluster-name.hasura-app.io/v1/query";
+let dataUrl = "https://data.asexuality44.hasura-app.io/v1/query";
 
 function fetchArticles() {
   $("#outputContainer").html("Fetching articles...");
