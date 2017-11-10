@@ -1,13 +1,14 @@
-console.log("Hello World");
-
 $(document).ready(function() {
     fetchArticles();
 });
 
+//replace cluster-name with the name of your cluster
+let dataUrl = "https://data.cluster-name.hasura-app.io/v1/query";
+
 function fetchArticles() {
   $("#outputContainer").html("Fetching articles...");
   $.ajax({
-  	url: "https://data.babysitting89.hasura-app.io/v1/query", //replace babysitting89 with your cluster-name
+  	url: dataUrl,
   	contentType: "application/json",
   	headers: {
         "X-Hasura-Role": "anonymous",
